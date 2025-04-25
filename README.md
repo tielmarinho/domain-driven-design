@@ -24,7 +24,7 @@ A disciplina de **Domain Driven Design** tem como foco:
 ├── desafio-transporte-urbano
 │   ├── README.md
 │   └── src/
-├── desafio-
+├── desafio-sistema-diagnostico-hospitalar
 │   ├── README.md
 │   └── src/
 ├── desafio-
