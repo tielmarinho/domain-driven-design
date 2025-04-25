@@ -54,9 +54,9 @@ Cada desafio está em uma pasta separada com seu próprio `README.md` explicando
 | Desafio | Tema | Status |
 |--------|------|--------|
 | 01     | Transporte Urbano       | ✅ Concluído |
-| 02     | Separação de contextos (Bounded Contexts) | ✅ Concluído |
-| 03     | Uso de Entidades e Value Objects  | 🚧 Em andamento |
-| 04     | Repositórios e Serviços de Domínio | 🔜 Em breve |
+| 02     | Sistema de Diagnóstico Hospitalar | ✅ Concluído |
+| 03     | Desafio 3  | 🚧 Em andamento |
+| 04     | Desafio 4 | 🔜 Em breve |
 | ...    | ...                                | ...         |
 
 ---
