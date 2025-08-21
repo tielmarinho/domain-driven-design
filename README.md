@@ -55,8 +55,8 @@ Cada desafio está em uma pasta separada com seu próprio `README.md` explicando
 |--------|------|--------|
 | 01     | Transporte Urbano       | ✅ Concluído |
 | 02     | Sistema de Diagnóstico Hospitalar | ✅ Concluído |
-| 03     | Envio de E-mail  | ✅ Concluído🚧 Em andamento |
-| 04     | Agenda | 🚧 Em andamento |
+| 03     | Envio de E-mail  | ✅ Concluído |
+| 04     | Agendamento de Consultas  | 🚧 Em andamento |
 | 05     | Próximo desafio.... | 🔜 Em breve      |
 
 ---
