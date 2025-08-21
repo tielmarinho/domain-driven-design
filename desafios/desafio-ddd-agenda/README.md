@@ -61,9 +61,9 @@ mvn exec:java -Dexec.mainClass="com.example.clinic.App"
 Antes de rodar, configure as variáveis de ambiente para acesso ao Oracle:
 
 ```bash
-export ORACLE_URL="jdbc:oracle:thin:@//localhost:1521/FREEPDB1"
-export ORACLE_USER="system"
-export ORACLE_PASSWORD="oracle"
+export ORACLE_URL="jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl"
+export ORACLE_USER="rm...."
+export ORACLE_PASSWORD="senha"
 ```
 
 ### O que o App faz?
