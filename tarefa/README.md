@@ -2,7 +2,7 @@
 
 🎯 Objetivo
 
-		Aplicar organização de pacotes e implementar funcionalidades do projeto de Agendamento de Consultas, garantindo execução em Console e em Swing. 
+ - Aplicar organização de pacotes e implementar funcionalidades do projeto de Agendamento de Consultas, garantindo execução em Console e em Swing. 
 
 🔗 Repositório base: https://github.com/tielmarinho/domain-driven-design/tree/main/desafios/desafio-ddd-agendamento-consultas
 

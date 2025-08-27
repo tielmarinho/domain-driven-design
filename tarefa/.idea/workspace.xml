@@ -4,25 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7de4e781-7736-4356-9e20-d63f580966b1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7de4e781-7736-4356-9e20-d63f580966b1" name="Changes" comment="Refactor Tarefa - Agendamento de Consultas">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/config/OracleConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/config/OracleConnectionFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/dao/ConsultaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/dao/ConsultaDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/dao/MedicoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/dao/MedicoDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/dao/PacienteDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/dao/PacienteDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/dao/jdbc/JdbcConsultaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/dao/jdbc/JdbcConsultaDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/dao/jdbc/JdbcMedicoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/dao/jdbc/JdbcMedicoDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/dao/jdbc/JdbcPacienteDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/dao/jdbc/JdbcPacienteDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/domain/Consulta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/domain/Consulta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/domain/Medico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/domain/Medico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/domain/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/domain/Paciente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/service/ConsultaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/service/ConsultaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/service/MedicoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/service/MedicoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/service/PacienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/service/PacienteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/ui/console/ConsoleMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/ui/console/ConsoleMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/ui/swing/SwingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/ui/swing/SwingMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +88,19 @@
       <option name="presentableId" value="Default" />
       <updated>1756234805131</updated>
     </task>
+    <task id="LOCAL-00001" summary="Refactor Tarefa - Agendamento de Consultas">
+      <option name="closed" value="true" />
+      <created>1756336924679</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1756336924679</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Refactor Tarefa - Agendamento de Consultas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor Tarefa - Agendamento de Consultas" />
   </component>
 </project>
