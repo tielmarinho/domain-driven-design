@@ -5,15 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7de4e781-7736-4356-9e20-d63f580966b1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/oracle/02_drop.sql" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/oracle/02_drop.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/config/OracleConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/config/OracleConnectionFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/dao/ConsultaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/dao/ConsultaDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/dao/MedicoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/dao/MedicoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/dao/PacienteDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/dao/PacienteDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/dao/jdbc/JdbcConsultaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/dao/jdbc/JdbcConsultaDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/dao/jdbc/JdbcMedicoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/dao/jdbc/JdbcMedicoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/dao/jdbc/JdbcPacienteDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/dao/jdbc/JdbcPacienteDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/domain/Consulta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/domain/Consulta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/domain/Medico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/domain/Medico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/domain/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/domain/Paciente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/service/ConsultaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/service/ConsultaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/service/MedicoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/service/MedicoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/service/PacienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/service/PacienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/ui/console/ConsoleMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/ui/console/ConsoleMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/ui/swing/SwingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/ui/swing/SwingMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +60,8 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/repositorio/Fiap/ES/domain-driven-design/tarefa"
+    "last_opened_file_path": "C:/repositorio/Fiap/ES/domain-driven-design/tarefa",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RunManager" selected="Application.AppConsole">

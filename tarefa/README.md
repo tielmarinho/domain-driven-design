@@ -1,104 +1,62 @@
-# Clínica – Agenda de Consultas (DDD – DAO + Service + Console/Swing)
+# Clínica – Agenda de Consultas (DAO + Service + Console/Swing)
 
-**Pontos-chave:**
-- Domínio: `domain/` (Entidades `Paciente`, `Medico`, `Consulta`).
-- Portas de saída (DDD): `dao/` + `dao.jdbc/` (implementações Oracle via JDBC).
-- Serviços de aplicação: `service/` (casos de uso – agendar, alterar, excluir, listar).
-- Interfaces de usuário: `ui.console/` e `ui.swing/` (listar/alterar/excluir/agendar).
-- Infraestrutura: `config/OracleConnectionFactory.java` (lê `application.properties` com override por env).
+🎯 Objetivo
 
-## Requisitos
-- Java 17+
-- Maven 3.8+
-- Banco: **Oracle** (mantido conforme solicitado)
+		Aplicar organização de pacotes e implementar funcionalidades do projeto de Agendamento de Consultas, garantindo execução em Console e em Swing. 
 
-## Configuração de conexão
-Edite `src/main/resources/application.properties` **ou** use variáveis de ambiente:
-```bash
-export ORACLE_URL="jdbc:oracle:thin:@//localhost:1521/FREEPDB1"
-export ORACLE_USER="system"
-export ORACLE_PASSWORD="oracle"
-```
+🔗 Repositório base: https://github.com/tielmarinho/domain-driven-design/tree/main/desafios/desafio-ddd-agendamento-consultas
 
-## Scripts Oracle
-Em `scripts/oracle/` há:
-- `01_schema.sql` com criação de tabelas e exemplos.
-- `02_drop.sql` para limpeza.
+🧱 Estrutura de Pacotes (esperada)
 
-## Executar (Swing – padrão)
-```bash
-mvn -q -DskipTests package
-java -cp target/clinica-agenda-ddd-1.1.0.jar:$(mvn -q -Dexec.classpathScope=runtime -Dexec.executable=echo --non-recursive exec:classpath) com.example.clinica.App
-```
+📂 config → OracleConnectionFactory
 
-## Executar (Console)
-```bash
-mvn -q -DskipTests package
-java -Dmode=console -cp target/clinica-agenda-ddd-1.1.0.jar:$(mvn -q -Dexec.classpathScope=runtime -Dexec.executable=echo --non-recursive exec:classpath) com.example.clinica.App
-```
+📂 dao → 📁 jdbc → Consulta, Medico e Paciente
 
-> No Windows, substitua `:` por `;` no classpath.
+📂 domain → Consulta, Medico, Paciente
 
-## Telas / Funcionalidades
-- **Console:** menu com `Listar`, `Agendar`, `Alterar`, `Excluir`.
-- **Swing:** abas `Listar` (tabela + atualizar), `Alterar` (formulário), `Excluir` (ID).  
-  Datas devem ser informadas no formato `yyyy-MM-dd HH:mm`.
+📂 service → Consulta, Medico e Paciente
 
-## Observações de DDD
-- Entidades puras no domínio (sem dependência de infraestrutura).
-- DAOs representam **portas de saída** (persistência) e são injetados nos **Serviços** (casos de uso).
-- UI não conhece JDBC – fala com `service`.
+🧭 App
 
-Bom proveito! — Prof. Salatiel Marinho
+💡 Verificar possibilidade de incluir pacotes: 📂 ui → 📂console → ConsoleMain  |  📂 ui → 📂swing → SwingMain
+
+✅ Tarefas Obrigatórias — marque ao concluir
+
+[  ] Aplicar a estrutura de pacotes indicada nesse documento ao projeto.
+
+[  ] Avaliar a distribuição e os nomes das classes se estão corretos e/ou sugerir uma nova nomenclatura.
+
+[  ] Desenvolver/complementar a inclusão de Médicos(as) (service + dao + console/swing).
+
+[  ] Desenvolver/complementar a inclusão de Pacientes (service + dao + console/swing).
+
+[  ] Garantir o funcionamento em Console e Swing das inclusões de consultas, paciente e médico(a).
+
+[  ] Rodar o projeto local (Oracle) e explicar ao professor o funcionamento de cada etapa desenvolvida/melhorada para Consultas, Médico(a) e Pacientes.
+
+[  ] Apontar 3 evoluções possíveis para o projeto de Agendamento de Consultas e apresentar 1 evolução já implementada e rodando no seu projeto corrente.
+
+📝 Campos para preencher (estudante)
+
+Nome:
+
+RM:
+
+Link do repositório:
+
+Evolução implementada (resumo):
+
+Observações sobre nomes/classes/pacotes:
+
+
+🖥️ Requisitos de Execução (Oracle)
+
+Defina as variáveis de ambiente antes de rodar:
+
+• ORACLE_URL (jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl)
+
+• ORACLE_USER (rm...)
+
+• ORACLE_PASSWORD (data_do_seu_nascimento)
 
 ---
-
-## Solução de problemas – ORA-12541 (no listener)
-
-Se ao abrir o Swing aparecer erro **ORA-12541: No listener**:
-
-1) **Confirme o listener**  
-   - Windows (Prompt):
-
-     ```bat
-     lsnrctl status
-     lsnrctl start
-     ```
-   - Windows (GUI): abra `services.msc` e inicie o serviço **TNS Listener** (ex.: *OracleOraDB23Home1TNSListener*).
-
-   - Linux/macOS:
-
-     ```bash
-     lsnrctl status
-     sudo lsnrctl start
-     ```
-
-2) **Teste a conexão via SQL\*Plus/SQLcl**  
-   ```bash
-   sqlplus system/oracle@//localhost:1521/FREEPDB1
-   # ou, para Oracle XE 21c:
-   sqlplus system/oracle@//localhost:1521/XEPDB1
-   # em instalações antigas (SID):
-   sqlplus system/oracle@localhost:1521/XE
-   ```
-
-3) **Ajuste o `oracle.url` conforme o seu serviço**  
-   Edite `src/main/resources/application.properties` **ou** defina variáveis de ambiente antes de executar:
-   ```bash
-   export ORACLE_URL="jdbc:oracle:thin:@//localhost:1521/XEPDB1"
-   export ORACLE_USER="system"
-   export ORACLE_PASSWORD="oracle"
-   ```
-   Exemplos de URL:
-   - Serviço (recomendado): `jdbc:oracle:thin:@//localhost:1521/FREEPDB1`
-   - XE 21c: `jdbc:oracle:thin:@//localhost:1521/XEPDB1`
-   - Com SID (legado): `jdbc:oracle:thin:@localhost:1521:XE`
-
-4) **Docker (se aplicável)**  
-   Garanta o mapeamento de porta: `-p 1521:1521` e que o container está *running*:
-   ```bash
-   docker ps
-   docker logs <nome_container>
-   ```
-
-> A partir desta correção, a UI Swing não fecha ao falhar a primeira listagem – será mostrado um diálogo e a tabela ficará vazia até a conexão estar ok.

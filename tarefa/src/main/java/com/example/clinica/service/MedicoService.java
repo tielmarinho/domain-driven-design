@@ -7,7 +7,6 @@ import com.example.clinica.domain.Medico;
 import java.util.List;
 import java.util.Optional;
 
-/** Serviço de aplicação para Medico */
 public class MedicoService {
     private final MedicoDao dao;
     public MedicoService(MedicoDao dao) { this.dao = dao; }

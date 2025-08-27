@@ -66,7 +66,6 @@ public class SwingMain {
         }
     }
 
-    /** Painel de alteração */
     static class AlterarPanel extends JPanel {
         private final ConsultaService service;
         private final JTextField txtId = new JTextField(6);
@@ -114,7 +113,6 @@ public class SwingMain {
         }
     }
 
-    /** Painel de exclusão */
     static class ExcluirPanel extends JPanel {
         private final ConsultaService service;
         private final JTextField txtId = new JTextField(6);
@@ -142,7 +140,6 @@ public class SwingMain {
         }
     }
 
-    /** TableModel para consultas */
     static class ConsultaTableModel extends AbstractTableModel {
         private final String[] cols = {"ID", "Paciente", "Médico", "Início", "Fim"};
         private final DateTimeFormatter FMT = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
