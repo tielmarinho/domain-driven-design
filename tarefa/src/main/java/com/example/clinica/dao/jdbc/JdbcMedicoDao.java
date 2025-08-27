@@ -25,7 +25,7 @@ public class JdbcMedicoDao implements MedicoDao {
             }
             return null;
         } catch (SQLException e) {
-            throw new RuntimeException("Erro ao salvar médico", e);
+            throw new RuntimeException("Erro ao salvar médico(a)", e);
         }
     }
 

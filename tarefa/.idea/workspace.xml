@@ -4,27 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7de4e781-7736-4356-9e20-d63f580966b1" name="Changes" comment="" />
+    <list default="true" id="7de4e781-7736-4356-9e20-d63f580966b1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/oracle/02_drop.sql" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/oracle/02_drop.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/config/OracleConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/config/OracleConnectionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/dao/ConsultaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/dao/ConsultaDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clinica/dao/jdbc/JdbcMedicoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clinica/dao/jdbc/JdbcMedicoDao.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "salatielmarinho"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;salatielmarinho&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/tielmarinho/domain-driven-design.git",
-    "accountId": "b9589690-712d-41cd-90d4-086d365952e7"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/tielmarinho/domain-driven-design.git&quot;,
+    &quot;accountId&quot;: &quot;b9589690-712d-41cd-90d4-086d365952e7&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
@@ -36,13 +46,31 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AppConsole.executor": "Run",
+    "Application.AppSwing.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/repositorio/Fiap/ES/domain-driven-design/desafios/teste"
+    "last_opened_file_path": "C:/repositorio/Fiap/ES/domain-driven-design/tarefa"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.AppConsole">
+    <configuration name="AppConsole" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.example.clinica.App" />
+      <module name="clinica-agenda-ddd" />
+      <option name="PROGRAM_PARAMETERS" value="--ui=console" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppSwing" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.example.clinica.App" />
+      <module name="clinica-agenda-ddd" />
+      <option name="PROGRAM_PARAMETERS" value="--ui=swing" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="teste" />
       <method v="2">
@@ -54,6 +82,10 @@
       <option name="filePath" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.AppConsole" />
+      <item itemvalue="Application.AppSwing" />
+    </list>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
