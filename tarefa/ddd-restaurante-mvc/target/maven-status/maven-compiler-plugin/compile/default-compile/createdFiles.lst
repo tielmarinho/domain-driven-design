@@ -1,0 +1,14 @@
+br\com\fiap\singleton\LoggerSingleton.class
+br\com\fiap\domain\Estoque.class
+br\com\fiap\interfaces\IPrato.class
+br\com\fiap\service\PedidoService.class
+br\com\fiap\App.class
+br\com\fiap\dao\jdbc\PratoJdbcDAO.class
+br\com\fiap\dao\memory\PratoMemoryDAO.class
+br\com\fiap\controller\PedidoController.class
+br\com\fiap\domain\Prato.class
+br\com\fiap\factory\DaoFactory.class
+br\com\fiap\ui\ConsoleView.class
+br\com\fiap\factory\ConnectionFactory.class
+br\com\fiap\interfaces\IPoliticaPromocao.class
+br\com\fiap\domain\PromocaoDiaSemana.class
