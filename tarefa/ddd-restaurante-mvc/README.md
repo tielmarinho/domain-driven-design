@@ -54,9 +54,8 @@ App.java      -> Main
 
 ---
 
-Professor Salatiel, o projeto está pronto para ser utilizado como **desafio**:
+Agora você pode os requisitos abaixo e participar do **desafio**:
 
-- Trocar DAO em memória por JDBC;
 - Criar entidades Java: Cliente, Pedido, ItemPedido, Conta em domain;
 - Adicionar DAOs e interfaces (interfaces/ICliente, IPedido, IItemPedido, IConta) e implementações JDBC
 
