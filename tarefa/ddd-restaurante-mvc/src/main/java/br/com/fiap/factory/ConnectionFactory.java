@@ -18,8 +18,8 @@ public class ConnectionFactory {
 
     public static ConnectionFactory fromEnv() {
         String url  = System.getenv().getOrDefault("ORACLE_URL", "jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl");
-        String user = System.getenv().getOrDefault("ORACLE_USER", "PF2084");
-        String pass = System.getenv().getOrDefault("ORACLE_PASSWORD", "fiap25");
+        String user = System.getenv().getOrDefault("ORACLE_USER", "RM");
+        String pass = System.getenv().getOrDefault("ORACLE_PASSWORD", "ddmmaa");
         return new ConnectionFactory(url, user, pass);
     }
 
