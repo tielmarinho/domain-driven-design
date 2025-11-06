@@ -1,0 +1,5 @@
+br\com\exemplo\equipamentos\EquipamentosApplication.class
+br\com\exemplo\equipamentos\controller\EquipamentoController.class
+br\com\exemplo\equipamentos\model\EquipamentoRepository.class
+br\com\exemplo\equipamentos\model\Equipamento.class
+br\com\exemplo\equipamentos\controller\HomeController.class

@@ -1,0 +1,5 @@
+<!-- fragments/_messages.html -->
+<div th:fragment="messagesFrag">
+  <div th:if="${msg_sucesso}" class="alert alert-success" role="alert" th:text="${msg_sucesso}"></div>
+  <div th:if="${erro}" class="alert alert-danger" role="alert" th:text="${erro}"></div>
+</div>
